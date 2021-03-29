@@ -20,11 +20,16 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  border: 1px solid blue;
 }
 
 .nav-bar {
   margin: 1rem 1rem;
+}
+
+.nav-bar-title h3 {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #339049;
 }
 
 .category-search-icon {
@@ -58,8 +63,15 @@
   padding: 8px 5px;
 }
 
-.nav-bar-profile-content {
-  margin-right: 10px;
+.nav-bar-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-bar-profile span {
+  margin: .3rem 0 0 0;
+  padding: 0 0 0 10px;
 }
 
 .btn-store {
@@ -68,9 +80,5 @@
 
 .btn-profile {
   background: #80AEC6;
-}
-
-* {
-  border: 1px solid red;
 }
 /*# sourceMappingURL=style.css.map */
