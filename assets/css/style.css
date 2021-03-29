@@ -81,4 +81,37 @@
 .btn-profile {
   background: #80AEC6;
 }
+
+.body {
+  padding: 2rem;
+}
+
+.top-profile-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top-profile-card span {
+  padding: 0 0 0 10px;
+}
+
+.profile-card-seperator {
+  margin: 1rem 0;
+  border-top: .1px solid grey;
+}
+
+.btn-collapse {
+  color: #000;
+  font-weight: bold;
+}
+
+.inbox-content a, .purchased-content a, .profile-content a {
+  padding: 5px 0 0 2vw;
+  color: #3CBE55;
+}
+
+.user-name {
+  font-weight: bold;
+}
 /*# sourceMappingURL=style.css.map */
