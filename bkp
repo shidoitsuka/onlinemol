@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -20,7 +21,7 @@
       <a href="#" class="top-bar-item right">Onlinemol Care</a>
     </div>
     <!-- container -->
-    <div class="container-fluid p-1">
+    <div class="container-fluid">
       <!-- nav bar -->
       <nav class="nav-bar shadow-4">
         <div class="row">
@@ -64,32 +65,28 @@
                 <i class="fas fa-store"></i> Toko
               </button>
               <ul class="dropdown-menu">
-                <div class="card btn-store-dropdown">
-                  <div class="card-body">
-                    <div class="row"></div>
-                  </div>
-                </div>
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
               </ul>
             </div>
+            <!-- <button
+              type="button"
+              class="btn btn-floating btn-store shadow-0"
+              data-mdb-ripple-color="dark"
+            >
+              <i class="fas fa-store"></i> 
+            </button>
+            <span>Toko</span> -->
           </div>
           <div class="col-1 nav-bar-profile">
-            <div class="dropdown">
-              <button
-                type="button"
-                class="btn btn-profile shadow-0 dropdown-toggle"
-                data-mdb-ripple-color="dark"
-                data-mdb-toggle="dropdown"
-              >
-                Lidya
-              </button>
-              <ul class="dropdown-menu">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="row"></div>
-                  </div>
-                </div>
-              </ul>
-            </div>
+            <button
+              type="button"
+              class="btn btn-floating btn-profile shadow-0"
+              data-mdb-ripple-color="dark"
+            >
+              L
+            </button>
+            <span>Lidya</span>
           </div>
         </div>
       </nav>
@@ -101,16 +98,14 @@
             <div class="card">
               <div class="card-body">
                 <div class="top-profile-card">
-                  <div class="dropdown">
-                    <button
-                      type="button"
-                      class="btn btn-floating btn-profile shadow-0"
-                      data-mdb-ripple-color="dark"
-                    >
-                      L
-                    </button>
-                    <span>Lidya</span>
-                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-floating btn-profile shadow-0"
+                    data-mdb-ripple-color="dark"
+                  >
+                    L
+                  </button>
+                  <span>Lidya</span>
                 </div>
                 <div class="profile-card-seperator"></div>
                 <div class="bottom-profile-card">

@@ -69,8 +69,8 @@ a:hover {
 }
 
 .nav-bar-misc i {
-  font-size: 1.2rem;
-  padding: .2rem;
+  font-size: 1rem;
+  padding: .4rem .2rem;
 }
 
 .nav-bar-profile {
@@ -79,17 +79,13 @@ a:hover {
   display: flex;
 }
 
-.nav-bar-profile span {
-  margin: .3rem 0 0 0;
-  padding: 0 0 0 10px;
-}
-
 .btn-store {
-  background: #E4E4E4;
+  background: rgba(0, 0, 0, 0);
+  font-size: .8rem;
 }
 
 .btn-profile {
-  background: #80AEC6;
+  background: rgba(0, 0, 0, 0);
 }
 
 .body {
@@ -109,6 +105,10 @@ a:hover {
 .profile-card-seperator {
   margin: 1rem 0;
   border-top: .1px solid grey;
+}
+
+.fw-sm h6 {
+  font-size: .8rem;
 }
 
 .btn-collapse {
